@@ -82,7 +82,7 @@ font-family: 'Raleway', sans-serif;
  }
 
  #illustrate1{
-    max-width: 55em;
+    width: 60em;
     margin-top: -5em;
     margin-right: 50px;
 }
@@ -109,15 +109,20 @@ font-family: 'Raleway', sans-serif;
     }
 
     #headercontainer{
-        margin-top: 5em;
+        margin-top: 10em;
     }
 
     #flylogo{
         max-width: 90px;
     }
 
+    #illustrate1cad{
+        margin: auto;
+    }
+
      #illustrate1{
-         max-width: 19em;
+         max-width: 20em;
+         margin-left: 5px;
          margin-right: 5px;
      }
 
