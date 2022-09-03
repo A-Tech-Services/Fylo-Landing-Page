@@ -82,9 +82,89 @@ font-family: 'Raleway', sans-serif;
  }
 
  #illustrate1{
-    width: 60em;
+    width: 50em;
     margin-top: -5em;
     margin-right: 50px;
+}
+
+#keypoint{
+    margin-top: 10em;
+    background-image: url("/Img/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 8em;
+}
+
+.back2{
+    padding-top: 4em;
+    background-color: hsl(240, 75%, 98%);
+}
+
+#keypoint1{
+    margin-left: 50px;
+}
+
+#keypoint1 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+}
+
+#keypoint1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    max-width: 32em;
+    font-size: 1.5em;
+}
+
+#keypoint1 #link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-size: 1.3em;
+}
+
+#keypoint1 #link::after{
+    content: " ";
+    display: block;
+    width: 9em;
+    height: 0.15em;
+    margin-top: 3px;
+    background-color: hsl(170, 45%, 43%);
+}
+
+#keypoint1 .card{
+    font-size: small;
+    margin-top: 2em;
+    max-width: 34em;
+    border: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.288);
+}
+
+.card #avatarcard{
+    max-width: 17em;
+}
+
+.card #avatar{
+    max-width: 3em;
+    height: 3.4em;
+    border-radius: 200em;
+}
+
+.card #avatartext{
+    font-size: 10px;
+}
+
+.card #avatartext h6{
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+
+#illustrate2{
+    margin-right: 50px;
+    width: 50em;
 }
 
 
@@ -116,11 +196,11 @@ font-family: 'Raleway', sans-serif;
         max-width: 90px;
     }
 
-    #illustrate1cad{
+    #illustrate1cad, #keypointimg{
         margin: auto;
     }
 
-     #illustrate1{
+     #illustrate1, #illustrate2{
          max-width: 20em;
          margin-left: 5px;
          margin-right: 5px;
@@ -155,6 +235,49 @@ font-family: 'Raleway', sans-serif;
        border-radius: 4px;
        border: none;
        width: 100%;
+    }
+
+
+    /* second section */
+    #keypoint{
+        margin-top: 5em;
+        background-image: none;
+        padding-top: 1.4em;
+    }
+
+    .back2{
+        width: 100%;
+    }
+
+    #keypoint1{
+        margin: 0;
+        padding: 1em;
+
+    }
+
+    #keypoint1 h1{
+        margin-top: 4em;
+        font-size: 1.2em;
+        text-align: center;
+        max-width: 32em;
+    }
+
+    #keypoint1 p{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #keypoint1 #link{
+        font-size: 1em;
+        margin-left: 6em;
+    }
+
+    #keypoint1 #link::after{
+        margin-left: 6em;
+    }
+
+    .card #avatarcard{
+        max-width: 12em;
     }
     
  }
