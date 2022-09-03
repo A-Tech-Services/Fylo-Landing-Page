@@ -160,6 +160,12 @@ font-family: 'Raleway', sans-serif;
 .card #avatartext h6{
     margin-top: 5px;
     margin-bottom: -3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.card #avatartext p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 #illustrate2{
