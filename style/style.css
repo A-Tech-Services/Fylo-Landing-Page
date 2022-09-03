@@ -98,6 +98,7 @@ font-family: 'Raleway', sans-serif;
 .back2{
     padding-top: 4em;
     background-color: hsl(240, 75%, 98%);
+    padding-bottom: 5em;
 }
 
 #keypoint1{
@@ -115,7 +116,7 @@ font-family: 'Raleway', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     max-width: 32em;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #keypoint1 .link #link{
@@ -144,7 +145,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .card #avatarcard{
-    max-width: 17em;
+    max-width: 14em;
 }
 
 .card #avatar{
@@ -172,6 +173,56 @@ font-family: 'Raleway', sans-serif;
     margin-right: 50px;
     width: 50em;
 }
+
+
+#calltoaction{
+    margin-top: 10em;
+    background-color: hsl(238, 22%, 44%);
+}
+
+
+#calltoaction #div1{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-left: 50px;
+}
+
+#calltoaction h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 3.5em;
+    color: white;
+}
+
+#calltoaction p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    max-width: 30em;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+#calltoaction #div2{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-right: 50px;
+}
+
+#ctaformhead{
+    width: 50em;
+}
+
+#ctaformhead #ctaform{
+    padding: 20px;
+}
+
+#ctaformhead button{
+    padding: 20px;
+    max-width: 25em;
+}
+
 
 
 
@@ -253,6 +304,7 @@ font-family: 'Raleway', sans-serif;
 
     .back2{
         width: 100%;
+        padding-bottom: 2em;
     }
 
     #keypoint1{
@@ -284,6 +336,45 @@ font-family: 'Raleway', sans-serif;
 
     .card #avatarcard{
         max-width: 12em;
+    }
+
+    /* Third section */   
+    
+    #calltoaction #div1{
+        text-align: center;
+        margin: auto;
+    }
+    
+    #calltoaction h1{
+        margin-top: 3em;
+        font-size: 1.6em;
+    }
+    
+    #calltoaction p{
+        max-width: 20em;
+        padding: 5px;
+        font-size: 1em;
+    }
+    
+    
+    #calltoaction #div2{
+        margin-bottom: 10em;
+        margin: auto;
+    }
+    
+    #ctaformhead{
+        margin-top: 10px;
+        width: 20em;
+    }
+    
+    #ctaformhead #ctaform{
+        padding: 20px;
+    }
+    
+    #ctaformhead button{
+        padding: 20px;
+        max-width: 25em;
+        margin-bottom: 3em;
     }
     
  }
