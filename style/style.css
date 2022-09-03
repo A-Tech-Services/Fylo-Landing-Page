@@ -118,7 +118,7 @@ font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
 }
 
-#keypoint1 #link{
+#keypoint1 .link #link{
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -126,10 +126,10 @@ font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
 }
 
-#keypoint1 #link::after{
+#keypoint1 .link #link::after{
     content: " ";
     display: block;
-    width: 9em;
+    width: 10.5em;
     height: 0.15em;
     margin-top: 3px;
     background-color: hsl(170, 45%, 43%);
@@ -267,13 +267,13 @@ font-family: 'Raleway', sans-serif;
         font-size: 1em;
     }
 
-    #keypoint1 #link{
-        font-size: 1em;
-        margin-left: 6em;
+    .link{
+        font-size: 0.8em;
+        text-align: center;
     }
 
-    #keypoint1 #link::after{
-        margin-left: 6em;
+    #keypoint1 .link #link::after{
+       margin: auto;
     }
 
     .card #avatarcard{
