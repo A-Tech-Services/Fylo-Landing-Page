@@ -223,6 +223,31 @@ font-family: 'Raleway', sans-serif;
     max-width: 25em;
 }
 
+#footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.address p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.links2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.links3 li a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -375,6 +400,28 @@ font-family: 'Raleway', sans-serif;
         padding: 20px;
         max-width: 25em;
         margin-bottom: 3em;
+    }
+
+    #footer{
+        padding: 2.5em;
+    }
+    
+    .address p{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .links1 li a{
+        margin-left: -2.2em;
+    }
+    
+    .links2{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: -2.2em;
+    }
+    
+    .links3{
+        margin: auto;
     }
     
  }
